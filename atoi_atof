@@ -1,12 +1,12 @@
-#include<stdio.h>
+  #include<stdio.h>
   int my_atoi(const char*);
    float my_atof(const char*);
    int main()
    {
    char s[100];
- int n;
+   int n;
    float f;
- printf("enter the string:");
+  printf("enter the string:");
   scanf("%[^\n]",s);
   n=my_atoi(s);
   f=my_atof(s);
@@ -19,7 +19,7 @@
   {
   int n=0,sign=1;
   while(*p==' '||*p=='\t'||*p=='"')
- p++;
+  p++;
   if(*p=='+'||*p=='-')
   {
   if(*p=='-')
@@ -40,7 +40,7 @@
   int sign=1;
   while(*q==' '||*q=='\t'||*q=='"')
   q++;
-if(*q=='+'||*q=='-')
+  if(*q=='+'||*q=='-')
   {
   if(*q=='-')
   sign=-1;
