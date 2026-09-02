@@ -1,11 +1,11 @@
   #include<stdio.h>
   int my_atoi(const char*);
-   float my_atof(const char*);
-   int main()
-   {
-   char s[100];
-   int n;
-   float f;
+  float my_atof(const char*);
+  int main()
+  {
+  char s[100];
+  int n;
+  float f;
   printf("enter the string:");
   scanf("%[^\n]",s);
   n=my_atoi(s);
